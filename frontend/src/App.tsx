@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
@@ -24,6 +25,9 @@ function App() {
                 <div className="header-links">
                     <a href = "cart.html">Cart</a>
                     <a href = "signin.html">Sign In</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/catalog">Catalog</Link>
+                    <Link to="/orders">Orders</Link>
                 </div>
             </header> 
             <aside className="sidebar">
