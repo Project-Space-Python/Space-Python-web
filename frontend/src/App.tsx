@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Payment from '../Payment'; // Import Payment Component
+import Payment from './Payment/Payment'; 
 import './App.css';
 
 function App() {
