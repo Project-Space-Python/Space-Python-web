@@ -90,7 +90,6 @@ function App() {
                 &copy;2022 Space Python
             </footer>
             </body>
-            
         </div>
   );
 }
