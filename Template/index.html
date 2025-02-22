@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang = "en">
-<div class="grid-container">
 <head>
-    <link rel="stylesheet" href= "style.css">
     <title>Space Python</title>
+    <link rel="stylesheet" href= "style.css">
 </head>
 <body>
+    <div class="grid-container">
         <header class = "header">
             <div class = "brand">
-                
-                <button onclick="openMenu()">&#9776;</button>
                 <a href = "index.html">Space Python</a>
+                <button onclick="openMenu()">&#9776;</button>
             </div>
             <div class="header-links">
                 <a href = "cart.html">Cart</a>
@@ -29,7 +28,7 @@
             <ul>
                 <div class="content">
                     <ul class="products">
-                        <li>
+                        <li> 
                             <div class="product">
                                 <img class="product-image" src="images/d1.jpg" alt="product" />
                                 <div class="product-name">
@@ -80,6 +79,7 @@
         <footer class = "footer">
             &copy;2022 Space Python
         </footer>
+    </div>
     <script>
         function openMenu() {
             document.querySelector(".sidebar").classList.add("open");
@@ -90,6 +90,6 @@
         }
     </script>
     </html>
-</div>
+    
 </body>
 </html>
