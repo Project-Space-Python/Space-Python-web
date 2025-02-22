@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
@@ -24,8 +25,16 @@ function App() {
                     <a href = "index.html">Space Python</a>
                 </div>
                 <div className="header-links">
+<<<<<<< HEAD
                     <Link to="/">Home</Link>
                     <Link to="/catalog">Catalog</Link>
+=======
+                    <a href = "cart.html">Cart</a>
+                    <a href = "signin.html">Sign In</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/catalog">Catalog</Link>
+                    <Link to="/orders">Orders</Link>
+>>>>>>> Orders
                 </div>
             </header> 
             <aside className="sidebar">
