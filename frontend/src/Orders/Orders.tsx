@@ -24,17 +24,17 @@ function Orders() {
                         </tr>
                     </thead>
                     <tbody>
-                        {data.orders.map((Orders) (
-                            <tr key={Orders._id}>
-                                <td>{Orders.createdAt}</td>
-                                <td>{Orders.totalPrice}</td>
-                                <td>{Orders.user.name}</td>
-                                <td>{Orders.isPaid}</td>
-                                <td>{Orders.paidAt}</td>
-                                <td>{Orders.isDelivered.toString()}</td>
-                                <td>{Orders.deliverableData}</td>
+                        {data.orders.map((order) => (
+                            <tr key={order._id}>
+                                <td>{order.createdAt}</td>
+                                <td>{order.totalPrice}</td>
+                                <td>{order.user.name}</td>
+                                <td>{order.isPaid}</td>
+                                <td>{order.paidAt}</td>
+                                <td>{order.isDelivered.toString()}</td>
+                                <td>{order.deliveredDate}</td>
                                 <td>
-                                    <Link to={"/Orders/" + Orders._id} claaName="button secondary">
+                                    <Link to={"/order/" + order._id} className="button secondary">
                                     Details
                                     </Link>
                                 </td>
@@ -47,3 +47,5 @@ function Orders() {
             </div>
         </div>);
 };
+
+export default Orders;
