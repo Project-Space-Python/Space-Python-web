@@ -18,7 +18,7 @@ export default {
       },
       {
         name: "Pants",
-        imageUrl: "/images/d2.jpg",
+        imageUrl: "/images/d1.jpg",
         price: 80,
         brand: "Adidas",
         rating: 4.0,
@@ -26,7 +26,7 @@ export default {
       },
       {
         name: "Shoes",
-        imageUrl: "/images/d3.jpg",
+        imageUrl: "/images/d1.jpg",
         price: 120,
         brand: "Puma",
         rating: 4.8,
@@ -34,7 +34,7 @@ export default {
       },
       {
         name: "Hat",
-        imageUrl: "/images/d4.jpg",
+        imageUrl: "/images/d1.jpg",
         price: 25,
         brand: "Under Armour",
         rating: 4.2,

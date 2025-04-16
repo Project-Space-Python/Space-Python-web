@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import data from "./data";
 import { useParams } from 'react-router-dom';
 
